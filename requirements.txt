@@ -1,0 +1,6 @@
+streamlit
+python-dotenv
+pypdf
+google-genai
+fpdf2
+pandas

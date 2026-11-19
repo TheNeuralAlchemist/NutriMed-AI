@@ -1,0 +1,9 @@
+FICTIONAL LAB REPORT - FOR DEMO ONLY
+Patient: Demo Person   Age: 30   Sex: F
+Test                Result    Normal range
+Hemoglobin          11.2      12.0 - 15.5 g/dL
+Fasting Glucose     110       70 - 99 mg/dL
+Total Cholesterol   215       below 200 mg/dL
+LDL Cholesterol     140       below 100 mg/dL
+HDL Cholesterol     48        above 50 mg/dL
+Vitamin D           18        30 - 100 ng/mL
