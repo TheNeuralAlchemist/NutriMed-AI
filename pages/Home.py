@@ -43,7 +43,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 b1, b2, _ = st.columns([1, 1, 2])
-b1.page_link("pages/medilens.py", label="Explore MediLens", icon="🩺")
+b1.page_link("pages/MediLens.py", label="Explore MediLens", icon="🩺")
 b2.page_link("pages/nutrilens.py", label="Explore NutriLens", icon="🥗")
 
 st.write("")
