@@ -44,8 +44,7 @@ st.markdown(
 )
 b1, b2, _ = st.columns([1, 1, 2])
 b1.page_link("pages/MediLens.py", label="Explore MediLens", icon="🩺")
-b2.page_link("pages/nutrilens.py", label="Explore NutriLens", icon="🥗")
-
+b2.page_link("pages/NutriLens.py", label="Explore NutriLens", icon="🥗")
 st.write("")
 c1, c2 = st.columns(2, gap="large")
 with c1:
