@@ -1,3 +1,6 @@
+from utils import load_global_css
+
+load_global_css()
 import streamlit as st
 
 import config

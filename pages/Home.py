@@ -1,3 +1,6 @@
+from utils import load_global_css
+
+load_global_css()
 """Home page: hero, the two modes, how it works, planned features, safety, FAQ."""
 import streamlit as st
 
@@ -61,7 +64,7 @@ with c2:
     st.page_link("pages/nutrilens.py", label="Open NutriLens", icon="🥗")
 
 st.header("How it works")
-steps = "".join(f"<li><b>{t}</b><span>{d}</span></li>" for t, d in STEPS)
+steps = "".join(f"<li><b>{t}:</b> <span>{d}</span></li>" for t, d in STEPS)
 st.markdown(f"<ol class='steps'>{steps}</ol>", unsafe_allow_html=True)
 
 st.header("Why NutriMed AI?")

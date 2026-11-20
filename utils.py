@@ -1,3 +1,4 @@
+from pathlib import Path
 from io import BytesIO
 from pypdf import PdfReader
 
@@ -51,3 +52,14 @@ def check_image(uploaded_file):
         return None, None, f"Image is larger than {MAX_MB} MB."
     mime = "image/jpeg" if ext in ("jpg", "jpeg") else f"image/{ext}"
     return data, mime, None
+    from pathlib import Path
+import streamlit as st
+
+def load_global_css():
+    css_path = Path(__file__).parent / "assets" / "styles.css"
+
+    with open(css_path, "r", encoding="utf-8") as file:
+        st.markdown(
+            f"<style>{file.read()}</style>",
+            unsafe_allow_html=True
+        )
