@@ -32,8 +32,7 @@ FAQ = [
 ]
 
 st.markdown(
-    "<div class='status'>Prototype in development. Phase 1 of 10 is done: project setup and home page. "
-    "Pages marked as planned are not built yet.</div>",
+    "<div class='status'></div>",
     unsafe_allow_html=True,
 )
 
