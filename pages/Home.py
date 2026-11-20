@@ -60,7 +60,7 @@ with c2:
         "nutrition facts, and possible alternatives.</p></div>",
         unsafe_allow_html=True,
     )
-    st.page_link("pages/nutrilens.py", label="Open NutriLens", icon="🥗")
+    st.page_link("pages/NutriLens.py", label="Open NutriLens", icon="🥗")
 
 st.header("How it works")
 steps = "".join(f"<li><b>{t}:</b> <span>{d}</span></li>" for t, d in STEPS)
