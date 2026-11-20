@@ -53,7 +53,7 @@ with c1:
         "medical terminology, and medication information in simple language.</p></div>",
         unsafe_allow_html=True,
     )
-    st.page_link("pages/medilens.py", label="Open MediLens", icon="🩺")
+    st.page_link("pages/MediLens.py", label="Open MediLens", icon="🩺")
 with c2:
     st.markdown(
         "<div class='mode nutri'><h3>NutriLens</h3><p>Scan your packaged food. Discover its ingredients, additives, "
